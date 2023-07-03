@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 .container {
     display: flex;
@@ -14,9 +15,8 @@
     flex-direction: column;
 }
 
-.body {
+body {
     margin: 0;
-    background-color: black;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -28,5 +28,5 @@
 .logo {
     width: 15rem;
     height: auto;
-    text-align: center;
+    align-self: center;
 }
