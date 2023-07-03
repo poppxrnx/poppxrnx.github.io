@@ -11,6 +11,7 @@
 .titleContainer {
     display: flex;
     align-self: center;
+    flex-direction: column;
 }
 
 .body {
@@ -26,5 +27,6 @@
 
 .logo {
     width: 15rem;
-    height: auto
+    height: auto;
+    text-align: center;
 }
